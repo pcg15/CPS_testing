@@ -6,5 +6,5 @@ def maxFindDiff(inputList):
             oneDiff = abs(inputList[i] - inputList[i+1])
 
             diffList.append(oneDiff)
-    maxxVal = round(max(diffList),5)
+    maxxVal = round(max(diffList), 5)
     return maxxVal
