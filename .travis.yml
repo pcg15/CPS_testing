@@ -1,7 +1,8 @@
 language: python
 python:
-    - "3.6"
+  - "3.6"
 install:
-    - pip install -r requirements.txt
+  - pip install -r requirements.txt
+  - pip install -r requirements2.txt
 script:
-    - pytest -v --pep8
+  - py.test -v --pep8
