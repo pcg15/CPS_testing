@@ -1,5 +1,5 @@
-def FindMinMax(list)
-    Minimum = min(list)
-    Maximum = max(list)
+def FindMinMax(list1):
+    Minimum = min(list1)
+    Maximum = max(list1)
     tup = (Minimum,Maximum)
     return tup
