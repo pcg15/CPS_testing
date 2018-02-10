@@ -5,3 +5,5 @@ ipython
 jupyter
 matplotlib
 pytest
+pytest -pep8
+pytest -cov
