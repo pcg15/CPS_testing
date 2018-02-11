@@ -1,6 +1,14 @@
 import numpy as np
 
 
+def test_exceptions():
+    from FindMinMax import FindMinMax
+    with raises(TypeError, message = "Expecting TypeError"):
+        pass
+    with raises(ValueError, message = "Expecting ValueError"):
+        pass
+
+
 def test_positive_numbers():
     from FindMinMax import FindMinMax
     list1 = list(range(1, 11))
