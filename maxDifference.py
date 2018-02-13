@@ -12,16 +12,17 @@ def maxFindDiff(inputList):
     """
     import logging
 
-
     logging.basicConfig(filename="maxDiffLogs.txt", format='%(levelname)s \
-    %(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.DEBUG)
+    %(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', \
+    level=logging.DEBUG)
 
     try:
         import math as mt
         logging.info('Succesfully imported math module')
     except ImportError:
         logging.warning('Unable to find math package')
-        print("cant find package (most likely you have not activated your virtual env)")
+        print("cant find package (most likely you have not \
+        activated your virtual env)")
     diffList = []
     for i in range(len(inputList)):
         if i != (len(inputList)-1):
@@ -34,7 +35,8 @@ def maxFindDiff(inputList):
                 is not all numerical')
                 print("attemping math operation on non-numerical input")
             except ValueError:
-                logging.warning('Invalid input: data in list is of wrong numerical type')
+                logging.warning('Invalid input: data in list is of \
+                wrong numerical type')
                 print("attempting to use an invalid numerical input \
                 (e.g., trying to find the square root of a negative number)")
             diffList.append(oneDiff)
