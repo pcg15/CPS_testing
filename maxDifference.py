@@ -13,8 +13,8 @@ def maxFindDiff(inputList):
     import logging
 
     logging.basicConfig(filename="maxDiffLogs.txt", format='%(levelname)s \
-    %(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', \
-    level=logging.DEBUG)
+    %(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p',
+level=logging.DEBUG)
 
     try:
         import math as mt
