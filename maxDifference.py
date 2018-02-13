@@ -11,10 +11,9 @@ def maxFindDiff(inputList):
     :raises ValueError: raises error if input is numerical, but of wrong type
     """
     import logging
-
+    str1 = logging.DEBUG
     logging.basicConfig(filename="maxDiffLogs.txt", format='%(levelname)s \
-    %(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p',
-        level=logging.DEBUG)
+    %(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=str1)
 
     try:
         import math as mt
