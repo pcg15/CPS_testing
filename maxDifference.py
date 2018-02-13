@@ -4,8 +4,9 @@ def maxFindDiff(inputList):
 
     :param inputList: List of input numbers. May be float or int
 
-    :returns: max difference between any two adjacent numbers from list
+    :returns: max difference between any two adjacent numbers from list \
     (list[i]-list[i+1])
+    
     :raises ImportError: raises error if math function is not found
     :raises TypeError: raises error if any list element is a string
     :raises ValueError: raises error if input is numerical, but of wrong type
