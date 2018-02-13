@@ -2,7 +2,7 @@ def test_MaxDiffr():
     try:
         from maxDifference import maxFindDiff
     except ImportError:
-        print ("cant find maxFindDiff function")
+        print("cant find maxFindDiff function")
     listV = [1, 2, 3, 6, 10]
     maxxNum = maxFindDiff(listV)
     assert maxxNum == 4
@@ -12,6 +12,7 @@ def test_MaxDiffr():
     maxxNumFloat = maxFindDiff(listV2)
     assert maxxNumFloat == 5.3
 test_MaxDiffr()
+
 
 def test_correctExcp():
     import pytest
