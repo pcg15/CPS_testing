@@ -11,7 +11,7 @@ def test_MaxDiffr():
     listV2 = [1.1, 2.2, 3.6, 8.9]
     maxxNumFloat = maxFindDiff(listV2)
     assert maxxNumFloat == 5.3
-test_MaxDiffr()
+
 
 
 def test_correctExcp():
