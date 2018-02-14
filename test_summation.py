@@ -1,5 +1,5 @@
 def test_summation():
-    from summation import summation
+    from assignment04 import summation
     list_ = ([8, -9, 10])
     summed_output = summation([2, 7])
     summed_output2 = summation([-2, 3])
