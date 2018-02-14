@@ -1,8 +1,11 @@
 import numpy as np
-
+# https://docs.pytest.org/en/latest/assert.html
+# Assertions about expected exceptions
 
 def test_exceptions():
     from FindMinMax import FindMinMax
+    with raises(ImportError, message = "Expecting ImportError"):
+        pass
     with raises(TypeError, message = "Expecting TypeError"):
         pass
     with raises(ValueError, message = "Expecting ValueError"):
