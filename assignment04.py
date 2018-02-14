@@ -8,12 +8,14 @@ def maxFindDiff(in1):
     from maxDifference02 import maxFindDiff
     out1 = maxFindDiff(in1)
     return out1
-    
+  
+  
 def summation(in2):
     from summation import summation
     out2 = summation(in2)
     return out2
 
+  
 def FindMinMax(in3):
     from FindMinMax import FindMinMax
     out3 = FindMinMax(in3)
