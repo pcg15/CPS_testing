@@ -5,4 +5,5 @@ def summation(list_):
     try:
         import numpy
     except ImportError:
-        raise ImportError('Virtual environment not activated. Cannot import numpy.')
+        raise ImportError('Virtual environment not activated.\
+                          Cannot import numpy.')
