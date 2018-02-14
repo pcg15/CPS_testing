@@ -1,5 +1,5 @@
 def test_MaxDiffr():
-    from maxDifference import maxFindDiff
+    from assignment04 import maxFindDiff
     listV = [1, 2, 3, 6, 10]
     maxxNum = maxFindDiff(listV)
     assert maxxNum == 4
@@ -8,4 +8,3 @@ def test_MaxDiffr():
     listV2 = [1.1, 2.2, 3.6, 8.9]
     maxxNumFloat = maxFindDiff(listV2)
     assert maxxNumFloat == 5.3
-test_MaxDiffr()
