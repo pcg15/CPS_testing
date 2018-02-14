@@ -19,9 +19,9 @@ sys.path.insert(0, os.path.abspath('..'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'findMaxDifference'
-copyright = '2018, kjans123'
-author = 'kjans123'
+project = 'CPS_testing'
+copyright = '2018, CPS team'
+author = 'CPS team'
 
 # The short X.Y version
 version = ''
@@ -102,7 +102,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'findMaxDifferencedoc'
+htmlhelp_basename = 'CPS_testingdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -129,8 +129,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'findMaxDifference.tex', 'findMaxDifference Documentation',
-     'kjans123', 'manual'),
+    (master_doc, 'CPS_testing.tex', 'CPS\\_testing Documentation',
+     'CPS team', 'manual'),
 ]
 
 
@@ -139,7 +139,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'findmaxdifference', 'findMaxDifference Documentation',
+    (master_doc, 'cps_testing', 'CPS_testing Documentation',
      [author], 1)
 ]
 
@@ -150,8 +150,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'findMaxDifference', 'findMaxDifference Documentation',
-     author, 'findMaxDifference', 'One line description of project.',
+    (master_doc, 'CPS_testing', 'CPS_testing Documentation',
+     author, 'CPS_testing', 'One line description of project.',
      'Miscellaneous'),
 ]
 

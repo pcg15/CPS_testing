@@ -1,10 +1,10 @@
-.. findMaxDifference documentation master file, created by
-   sphinx-quickstart on Mon Feb 12 20:01:36 2018.
+.. CPS_testing documentation master file, created by
+   sphinx-quickstart on Wed Feb 14 12:19:58 2018.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to findMaxDifference's documentation!
-=============================================
+Welcome to CPS_testing's documentation!
+=======================================
 
 .. toctree::
    :maxdepth: 2
