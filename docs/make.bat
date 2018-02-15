@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=.
 set BUILDDIR=_build
-set SPHINXPROJ=findMaxDifference
+set SPHINXPROJ=CPS_testing
 
 if "%1" == "" goto help
 

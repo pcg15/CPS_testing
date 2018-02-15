@@ -1,31 +1,31 @@
-INFO 02/12/2018 08:08:43 PM Succesfully imported math module
-INFO 02/12/2018 08:08:43 PM Found difference
-DEBUG 02/12/2018 08:08:43 PM Difference =1.0
-INFO 02/12/2018 08:08:43 PM Found difference
-DEBUG 02/12/2018 08:08:43 PM Difference =1.0
-INFO 02/12/2018 08:08:43 PM Found difference
-DEBUG 02/12/2018 08:08:43 PM Difference =3.0
-INFO 02/12/2018 08:08:43 PM Found difference
-DEBUG 02/12/2018 08:08:43 PM Difference =4.0
-INFO 02/12/2018 08:08:43 PM Finished
-DEBUG 02/12/2018 08:08:43 PM Max Difference= 4.0
-INFO 02/12/2018 08:08:43 PM Succesfully imported math module
-INFO 02/12/2018 08:08:43 PM Found difference
-DEBUG 02/12/2018 08:08:43 PM Difference =1.0
-INFO 02/12/2018 08:08:43 PM Found difference
-DEBUG 02/12/2018 08:08:43 PM Difference =1.0
-INFO 02/12/2018 08:08:43 PM Found difference
-DEBUG 02/12/2018 08:08:43 PM Difference =3.0
-INFO 02/12/2018 08:08:43 PM Found difference
-DEBUG 02/12/2018 08:08:43 PM Difference =4.0
-INFO 02/12/2018 08:08:43 PM Finished
-DEBUG 02/12/2018 08:08:43 PM Max Difference= 4.0
-INFO 02/12/2018 08:08:43 PM Succesfully imported math module
-INFO 02/12/2018 08:08:43 PM Found difference
-DEBUG 02/12/2018 08:08:43 PM Difference =1.1
-INFO 02/12/2018 08:08:43 PM Found difference
-DEBUG 02/12/2018 08:08:43 PM Difference =1.4
-INFO 02/12/2018 08:08:43 PM Found difference
-DEBUG 02/12/2018 08:08:43 PM Difference =5.300000000000001
-INFO 02/12/2018 08:08:43 PM Finished
-DEBUG 02/12/2018 08:08:43 PM Max Difference= 5.3
+INFO     02/14/2018 12:23:44 PM Succesfully imported math module
+INFO     02/14/2018 12:23:44 PM Found difference
+DEBUG     02/14/2018 12:23:44 PM Difference =1.0
+INFO     02/14/2018 12:23:44 PM Found difference
+DEBUG     02/14/2018 12:23:44 PM Difference =1.0
+INFO     02/14/2018 12:23:44 PM Found difference
+DEBUG     02/14/2018 12:23:44 PM Difference =3.0
+INFO     02/14/2018 12:23:44 PM Found difference
+DEBUG     02/14/2018 12:23:44 PM Difference =4.0
+INFO     02/14/2018 12:23:44 PM Finished
+DEBUG     02/14/2018 12:23:44 PM Max Difference= 4.0
+INFO     02/14/2018 12:23:44 PM Succesfully imported math module
+INFO     02/14/2018 12:23:44 PM Found difference
+DEBUG     02/14/2018 12:23:44 PM Difference =1.0
+INFO     02/14/2018 12:23:44 PM Found difference
+DEBUG     02/14/2018 12:23:44 PM Difference =1.0
+INFO     02/14/2018 12:23:44 PM Found difference
+DEBUG     02/14/2018 12:23:44 PM Difference =3.0
+INFO     02/14/2018 12:23:44 PM Found difference
+DEBUG     02/14/2018 12:23:44 PM Difference =4.0
+INFO     02/14/2018 12:23:44 PM Finished
+DEBUG     02/14/2018 12:23:44 PM Max Difference= 4.0
+INFO     02/14/2018 12:23:44 PM Succesfully imported math module
+INFO     02/14/2018 12:23:44 PM Found difference
+DEBUG     02/14/2018 12:23:44 PM Difference =1.1
+INFO     02/14/2018 12:23:44 PM Found difference
+DEBUG     02/14/2018 12:23:44 PM Difference =1.4
+INFO     02/14/2018 12:23:44 PM Found difference
+DEBUG     02/14/2018 12:23:44 PM Difference =5.300000000000001
+INFO     02/14/2018 12:23:44 PM Finished
+DEBUG     02/14/2018 12:23:44 PM Max Difference= 5.3
