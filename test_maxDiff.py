@@ -13,7 +13,6 @@ def test_MaxDiffr():
     assert maxxNumFloat == 5.3
 
 
-
 def test_correctExcp():
     import pytest
     import math
