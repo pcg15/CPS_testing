@@ -1,8 +1,5 @@
 def test_MaxDiffr():
-    try:
-        from maxDifference import maxFindDiff
-    except ImportError:
-        print("cant find maxFindDiff function")
+    from assignment04 import maxFindDiff
     listV = [1, 2, 3, 6, 10]
     maxxNum = maxFindDiff(listV)
     assert maxxNum == 4
@@ -22,3 +19,4 @@ def test_correctExcp():
         numTest = 1 + "e"
     with pytest.raises(ValueError, message="Expecting ValueError"):
         numTest = math.sqrt(-1)
+
