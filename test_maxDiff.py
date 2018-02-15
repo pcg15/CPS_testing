@@ -19,4 +19,3 @@ def test_correctExcp():
         numTest = 1 + "e"
     with pytest.raises(ValueError, message="Expecting ValueError"):
         numTest = math.sqrt(-1)
-
