@@ -1,4 +1,17 @@
 import numpy as np
+import math
+# https://docs.pytest.org/en/latest/assert.html
+# Assertions about expected exceptions
+
+
+def test_exceptions():
+    import pytest
+    with pytest.raises(ImportError, message="Expecting ImportError"):
+        import blah
+    with pytest.raises(TypeError, message="Expecting TypeError"):
+        test = 5 + 'h'
+    with pytest.raises(ValueError, message="Expecting ValueError"):
+        test = math.sqrt(-1)
 
 
 def test_positive_numbers():
