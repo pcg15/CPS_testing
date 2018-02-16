@@ -3,6 +3,7 @@ def maxFindDiff(inputList):
     """"Returns the max difference from a list of numbers
     
     :param inputList: List of input numbers. May be float or int
+    
     :returns: max difference between any two adjacent numbers from list \
     (list[i]-list[i+1])
     :raises ImportError: raises error if math function is not found
