@@ -1,5 +1,4 @@
 def FindMinMax(list1):
-    import logging
     """Returns the tuple of the minimum and maximum of a list of numbers.
 
     :param list1: List of the numbers that are either int or float
@@ -9,6 +8,7 @@ def FindMinMax(list1):
     :raises TypeError: error raised if input is not a list or a tuple
     :raises ValueError: error raised if input has non-numerical values
     """
+    import logging
     logging.basicConfig(filename='FindMinMax.log', mt='%(asctime)s\
     %(message)s', datefmt='%m/%d/%Y %I:%M:%S %pi')
     logging.info('Begin')
