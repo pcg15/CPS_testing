@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # CPS_testing documentation build configuration file, created by
-# sphinx-quickstart on Thu Feb 15 22:25:32 2018.
+# sphinx-quickstart on Thu Feb 15 23:46:07 2018.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -47,8 +47,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'CPS_testing'
-copyright = '2018, CPS Team'
-author = 'CPS Team'
+copyright = '2018, CPS'
+author = 'CPS'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -69,7 +69,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = []
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -140,7 +140,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'CPS_testing.tex', 'CPS\\_testing Documentation',
-     'CPS Team', 'manual'),
+     'CPS', 'manual'),
 ]
 
 
