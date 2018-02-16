@@ -17,6 +17,7 @@ def summation(list_):
     db_str = logging.DEBUG
     logging.basicConfig(filename="summationlog.txt", format='%(levelname)s \
     %(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=db_str)
+    logging.info("Summation function initiated")
     try:
         import numpy as np
         import math
@@ -40,5 +41,5 @@ def summation(list_):
         print("ValueError")
         print("Your input is not a valid number. Try again.")
     sum_list_ = np.sum(list_)
-    logging.info("Program completed successfully")
+    logging.info("Summation completed successfully")
     return sum_list_
