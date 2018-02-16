@@ -1,0 +1,95 @@
+INFO     02/15/2018 10:56:13 PM Beginning of program
+INFO     02/15/2018 10:59:15 PM Beginning of program
+INFO     02/15/2018 10:59:15 PM maxFindDiff imported successfully
+INFO     02/15/2018 10:59:15 PM Succesfully imported math module
+INFO     02/15/2018 10:59:15 PM Found difference
+DEBUG     02/15/2018 10:59:15 PM Difference =1.0
+INFO     02/15/2018 10:59:15 PM Found difference
+DEBUG     02/15/2018 10:59:15 PM Difference =1.0
+INFO     02/15/2018 10:59:15 PM Finished
+DEBUG     02/15/2018 10:59:15 PM Max Difference= 1.0
+INFO     02/15/2018 10:59:15 PM Succesfully imported math module
+INFO     02/15/2018 10:59:15 PM Found difference
+DEBUG     02/15/2018 10:59:15 PM Difference =1.0
+INFO     02/15/2018 10:59:15 PM Found difference
+DEBUG     02/15/2018 10:59:15 PM Difference =1.0
+INFO     02/15/2018 10:59:15 PM Finished
+DEBUG     02/15/2018 10:59:15 PM Max Difference= 1.0
+DEBUG     02/15/2018 10:59:15 PM Max Difference = 1.0
+INFO     02/15/2018 11:03:05 PM Beginning of program
+INFO     02/15/2018 11:03:05 PM maxFindDiff imported successfully
+INFO     02/15/2018 11:03:05 PM Succesfully imported math module
+INFO     02/15/2018 11:03:05 PM Found difference
+DEBUG     02/15/2018 11:03:05 PM Difference =1.0
+INFO     02/15/2018 11:03:05 PM Found difference
+DEBUG     02/15/2018 11:03:05 PM Difference =1.0
+INFO     02/15/2018 11:03:05 PM Finished
+DEBUG     02/15/2018 11:03:05 PM Max Difference= 1.0
+INFO     02/15/2018 11:03:05 PM Succesfully imported math module
+INFO     02/15/2018 11:03:05 PM Found difference
+DEBUG     02/15/2018 11:03:05 PM Difference =1.0
+INFO     02/15/2018 11:03:05 PM Found difference
+DEBUG     02/15/2018 11:03:05 PM Difference =1.0
+INFO     02/15/2018 11:03:05 PM Finished
+DEBUG     02/15/2018 11:03:05 PM Max Difference= 1.0
+DEBUG     02/15/2018 11:03:05 PM Max Difference = 1.0
+INFO     02/15/2018 11:03:05 PM Maximum difference found
+INFO     02/15/2018 11:03:05 PM summation imported successfully
+INFO     02/15/2018 11:03:05 PM Numpy was successfully imported
+INFO     02/15/2018 11:03:05 PM Numbers added successfully
+DEBUG     02/15/2018 11:03:05 PM Sum = 19
+INFO     02/15/2018 11:03:05 PM Program completed successfully
+INFO     02/15/2018 11:03:05 PM Numpy was successfully imported
+INFO     02/15/2018 11:03:05 PM Numbers added successfully
+DEBUG     02/15/2018 11:03:05 PM Sum = 19
+INFO     02/15/2018 11:03:05 PM Program completed successfully
+DEBUG     02/15/2018 11:03:05 PM Sum = 19
+INFO     02/15/2018 11:03:46 PM Beginning of program
+INFO     02/15/2018 11:03:46 PM maxFindDiff imported successfully
+INFO     02/15/2018 11:03:46 PM Succesfully imported math module
+INFO     02/15/2018 11:03:46 PM Found difference
+DEBUG     02/15/2018 11:03:46 PM Difference =1.0
+INFO     02/15/2018 11:03:46 PM Found difference
+DEBUG     02/15/2018 11:03:46 PM Difference =1.0
+INFO     02/15/2018 11:03:46 PM Finished
+DEBUG     02/15/2018 11:03:46 PM Max Difference= 1.0
+INFO     02/15/2018 11:03:46 PM Succesfully imported math module
+INFO     02/15/2018 11:03:46 PM Found difference
+DEBUG     02/15/2018 11:03:46 PM Difference =1.0
+INFO     02/15/2018 11:03:46 PM Found difference
+DEBUG     02/15/2018 11:03:46 PM Difference =1.0
+INFO     02/15/2018 11:03:46 PM Finished
+DEBUG     02/15/2018 11:03:46 PM Max Difference= 1.0
+DEBUG     02/15/2018 11:03:46 PM Max Difference = 1.0
+INFO     02/15/2018 11:03:46 PM Maximum difference found
+INFO     02/15/2018 11:03:46 PM summation imported successfully
+INFO     02/15/2018 11:03:46 PM Numpy was successfully imported
+INFO     02/15/2018 11:03:46 PM Numbers added successfully
+DEBUG     02/15/2018 11:03:46 PM Sum = 19
+INFO     02/15/2018 11:03:46 PM Program completed successfully
+INFO     02/15/2018 11:03:46 PM Numpy was successfully imported
+INFO     02/15/2018 11:03:46 PM Numbers added successfully
+DEBUG     02/15/2018 11:03:46 PM Sum = 19
+INFO     02/15/2018 11:03:46 PM Program completed successfully
+DEBUG     02/15/2018 11:03:46 PM Sum = 19
+INFO     02/15/2018 11:03:46 PM Sum of list numbers completed
+INFO     02/15/2018 11:03:46 PM FindMinMax imported successfully
+DEBUG     02/15/2018 11:03:46 PM Max and Min = (1, 9)
+INFO     02/15/2018 11:03:46 PM The maximum and minimum were found
+INFO     02/15/2018 11:03:46 PM Program completed successfully
+INFO     02/15/2018 11:15:30 PM Beginning of assignment05
+INFO     02/15/2018 11:15:30 PM Succesfully imported math module
+INFO     02/15/2018 11:15:30 PM Found difference
+DEBUG     02/15/2018 11:15:30 PM Difference =1.0
+INFO     02/15/2018 11:15:30 PM Found difference
+DEBUG     02/15/2018 11:15:30 PM Difference =1.0
+INFO     02/15/2018 11:15:30 PM Finished
+DEBUG     02/15/2018 11:15:30 PM Max Difference= 1.0
+INFO     02/15/2018 11:15:30 PM Assignment05: Maximum difference found
+INFO     02/15/2018 11:15:30 PM Numpy was successfully imported
+INFO     02/15/2018 11:15:30 PM Numbers added successfully
+DEBUG     02/15/2018 11:15:30 PM Sum = 19
+INFO     02/15/2018 11:15:30 PM Program completed successfully
+INFO     02/15/2018 11:15:30 PM Assignment05: Sum of list numbers completed
+INFO     02/15/2018 11:15:30 PM Assignment05: The maximum and minimum were found
+INFO     02/15/2018 11:15:30 PM Assignment 05 program completed successfully
