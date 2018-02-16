@@ -1,6 +1,6 @@
 def summation(list_):
 
-    """"Returns the sum of a list of numbers
+    """Returns the sum of a list of numbers
 
     :param list_: Input that is a list of numbers. Can be integers or \
     floats
