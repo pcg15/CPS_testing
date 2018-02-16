@@ -1,3 +1,11 @@
+"""
+Returns the tuple of the minimum and maximum of a list of numbers.
+:param list1: List of the numbers that are either int or float
+:returns: The tuple of the minimum and maximum of the given list
+:raises ImportError: error raised if logging module not found
+:raises TypeError: error raised if input is not a list or a tuple
+:raises ValueError: error raised if input has non-numerical values
+"""
 import logging
 
 
