@@ -17,7 +17,7 @@ def FindMinMax(list1):
     except ImportError:
         print("Cannot import logging")
         logging.debug('Make sure you have "logging" module.')
-    try: 
+    try:
         type1 = [4, 5, 6, 3]
         type(type1) == type(list1)
     except TypeError:
