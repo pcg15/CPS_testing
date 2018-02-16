@@ -3,6 +3,7 @@
 *env*
 *venv*
 *.venv
+.gitignore
 
 *cache*
 *.pytest_cache
