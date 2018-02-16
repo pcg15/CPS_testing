@@ -2,15 +2,17 @@ def summation(list_):
 
     """"Returns the sum of a list of numbers
 
-    :param list_: Input that is a list of numbers. Can be integers or floats
+    :param list_: Input that is a list of numbers. Can be integers or \
+    floats
 
     :returns: combined sum of a list of numbers
     :raises ImportError: an error is raised if numpy cannot be found
-    :raises TypeError: an error is raised if the data input contains combined \
-    data types or a string instead of integers or a list
+    :raises TypeError: an error is raised if the data input contains \
+    combined data types or a string instead of integers or a list
     :raises ValueError: an error is raised if the data input contains \
     unsupported numerical values (i.e. an imaginary number or string)
-    """"
+    """
+
     import logging
     db_str = logging.DEBUG
     logging.basicConfig(filename="summationlog.txt", format='%(levelname)s \

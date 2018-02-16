@@ -20,8 +20,8 @@ sys.path.insert(0, os.path.abspath('..'))
 # -- Project information -----------------------------------------------------
 
 project = 'CPS_testing'
-copyright = '2018, Pamla Chace Gore'
-author = 'Pamla Chace Gore'
+copyright = '2018, CPS team'
+author = 'CPS team'
 
 # The short X.Y version
 version = ''
@@ -130,7 +130,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'CPS_testing.tex', 'CPS\\_testing Documentation',
-     'Pamla Chace Gore', 'manual'),
+     'CPS team', 'manual'),
 ]
 
 
