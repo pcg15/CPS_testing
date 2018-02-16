@@ -164,6 +164,3 @@ texinfo_documents = [
      author, 'CPS_testing', 'One line description of project.',
      'Miscellaneous'),
 ]
-
-
-

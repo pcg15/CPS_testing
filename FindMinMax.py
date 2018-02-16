@@ -9,7 +9,8 @@ def FindMinMax(list1):
     :raises TypeError: error raised if input is not a list or a tuple
     :raises ValueError: error raised if input has non-numerical values
     """
-    logging.basicConfig(filename = 'FindMinMax.log', mt='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %pi')
+    logging.basicConfig(filename='FindMinMax.log', mt='%(asctime)s\
+    %(message)s', datefmt='%m/%d/%Y %I:%M:%S %pi')
     logging.info('Begin')
     try:
         import logging
@@ -17,7 +18,7 @@ def FindMinMax(list1):
         print("Cannot import logging")
         logging.debug('Make sure you have "logging" module.')
     try: 
-        type1 = [4,5,6,3]
+        type1 = [4, 5, 6, 3]
         type(type1) == type(list1)
     except TypeError:
         print("Give a list please!")
@@ -27,12 +28,14 @@ def FindMinMax(list1):
             x = float(x)
         except ValueError:
             print("Give a list with real numbers!")
-            logging.error('Your input has some non-numerical and/or nonreal values.')
+            logging.error('Your input has some non-numerical\
+            and/or nonreal values.')
     try:
         print(list1[1])
     except:
-        print("You need more than one number in the list!")      
-        logging.warning('Give a list or else you will have two equal values in output tuple.')
+        print("You need more than one number in the list!")
+        logging.warning('Give a list or else you will have \
+        two equal values in output tuple.')
     Minimum = min(list1)
     logging.info('Recorded the minimum value')
     Maximum = max(list1)
