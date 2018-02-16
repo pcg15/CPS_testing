@@ -18,7 +18,6 @@ sys.path.insert(0, os.path.abspath('..'))
 
 
 # -- Project information -----------------------------------------------------
-
 project = 'CPS_testing'
 copyright = '2018, CPS team'
 author = 'CPS team'
@@ -106,7 +105,6 @@ htmlhelp_basename = 'CPS_testingdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
-
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
@@ -145,7 +143,6 @@ man_pages = [
 
 
 # -- Options for Texinfo output ----------------------------------------------
-
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
