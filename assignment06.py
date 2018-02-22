@@ -14,11 +14,8 @@ class Assignment06:
     :param list: Input that is a list of numbers. Can be integers or \
     floats
 
-    :returns Sum: combined sum of a list of numbers
-
-    :returns MinMax: a tuple of the min and max from the list
-
-    :returns MaxDifference: the maximum difference between two adjacent \
+    :returns: combined sum of a list of numbers, a tuple of the min and max \
+    from the list, and the maximum difference between two adjacent \
     numbers in the list
     :raises ImportError: an error is raised if necessary functions cannot be \
     found
