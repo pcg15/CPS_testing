@@ -14,22 +14,19 @@ def summation(list_):
     """
 
     import logging
-    db_str = logging.DEBUG
-    logging.basicConfig(filename="summationlog.txt", format='%(levelname)s \
-    %(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=db_str)
+    str_ = logging.DEBUG
+    logging.basicConfig(filename="assignment06log.txt", format='%(levelname)s \
+    %(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=str_)
     logging.info("Summation function initiated")
     try:
         import numpy as np
         import math
-        logging.info("Numpy was successfully imported")
     except ImportError:
         logging.warning("Not able to find package numpy")
         print("ImportError:")
         print("Numpy not found. Ensure virtual environment activated.")
     try:
         sum_list_ = np.sum(list_)
-        logging.info("Numbers added successfully")
-        logging.debug("Sum = " + str(sum_list_))
     except TypeError:
         logging.warning("Invalid input: list contains data that mixes types \
         or that is not numerical")
@@ -41,5 +38,5 @@ def summation(list_):
         print("ValueError")
         print("Your input is not a valid number. Try again.")
     sum_list_ = np.sum(list_)
-    logging.info("Summation completed successfully")
+    logging.info("Summation function completed successfully")
     return sum_list_

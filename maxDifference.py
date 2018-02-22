@@ -1,6 +1,6 @@
-def maxFindDiff(inputList):
+def maxFindDiff(list_):
 
-    """"Returns the max difference from a list of numbers
+    """Returns the max difference from a list of numbers
 
     :param inputList: List of input numbers. May be float or int
 
@@ -10,25 +10,23 @@ def maxFindDiff(inputList):
     :raises TypeError: raises error if any list element is a string
     :raises ValueError: raises error if input is numerical, but of wrong type
     """
-    import logging
-    str1 = logging.DEBUG
-    logging.basicConfig(filename="maxDiffLogs.txt", format='%(levelname)s \
-    %(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=str1)
 
+    import logging
+    str_ = logging.DEBUG
+    logging.basicConfig(filename="assignment06log.txt", format='%(levelname)s \
+    %(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=str_)
+    logging.info("MaxDiff function initiated")
     try:
         import math as mt
-        logging.info('Succesfully imported math module')
     except ImportError:
-        logging.warning('Unable to find math package')
+        logging.warning("Unable to find math package")
         print("cant find package (most likely you have not \
         activated your virtual env)")
     diffList = []
-    for i in range(len(inputList)):
-        if i != (len(inputList)-1):
+    for i in range(len(list_)):
+        if i != (len(list_)-1):
             try:
-                oneDiff = mt.copysign((inputList[i] - inputList[i+1]), 1)
-                logging.info('Found difference')
-                logging.debug('Difference =' + str(oneDiff))
+                oneDiff = mt.copysign((list_[i] - list_[i+1]), 1)
             except TypeError:
                 logging.warning('Invalid input: data in list \
                 is not all numerical')
@@ -40,6 +38,5 @@ def maxFindDiff(inputList):
                 (e.g., trying to find the square root of a negative number)")
             diffList.append(oneDiff)
     maxxVal = round(max(diffList), 5)
-    logging.info('Finished')
-    logging.debug('Max Difference= ' + str(maxxVal))
+    logging.info("MaxDiff function completed successfully")
     return maxxVal
