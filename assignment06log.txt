@@ -19,3 +19,24 @@ INFO 02/22/2018 02:21:34 PM Assignment06: MaxDiff attribute assigned to list_
 INFO 02/22/2018 02:21:34 PM MaxDiff function initiated
 INFO 02/22/2018 02:21:34 PM MaxDiff function completed successfully
 DEBUG 02/22/2018 02:21:34 PM Assignment06: MinMax = 6.0
+INFO 02/22/2018 07:21:30 PM Assignment06: summation was imported successfully
+INFO 02/22/2018 07:21:30 PM Summation function initiated
+INFO 02/22/2018 07:21:30 PM Summation function completed successfully
+INFO 02/22/2018 07:21:30 PM Assignment06: Sum attribute assigned to list_
+INFO 02/22/2018 07:21:30 PM Summation function initiated
+INFO 02/22/2018 07:21:30 PM Summation function completed successfully
+DEBUG 02/22/2018 07:21:30 PM Assignment06: Sum = 7.25
+INFO 02/22/2018 07:21:30 PM Assignment06: FindMinMax was imported successfully
+INFO 02/22/2018 07:21:30 PM FindMinMax function initiated
+INFO 02/22/2018 07:21:30 PM FindMinMax function completed successfully
+INFO 02/22/2018 07:21:30 PM Assignment06: MinMax attribute assigned to list_
+INFO 02/22/2018 07:21:30 PM FindMinMax function initiated
+INFO 02/22/2018 07:21:30 PM FindMinMax function completed successfully
+DEBUG 02/22/2018 07:21:30 PM Assignment06: MinMax = (-6, 7.25)
+INFO 02/22/2018 07:21:30 PM Assignment06: maxFindDiff was imported successfully
+INFO 02/22/2018 07:21:30 PM MaxDiff function initiated
+INFO 02/22/2018 07:21:30 PM MaxDiff function completed successfully
+INFO 02/22/2018 07:21:30 PM Assignment06: MaxDiff attribute assigned to list_
+INFO 02/22/2018 07:21:30 PM MaxDiff function initiated
+INFO 02/22/2018 07:21:30 PM MaxDiff function completed successfully
+DEBUG 02/22/2018 07:21:30 PM Assignment06: MinMax = 13.25
