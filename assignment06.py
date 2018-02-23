@@ -41,10 +41,26 @@ class Assignment06:
         :param: list components can be a float or integer
         """
 
-        from summation import summation
-        logging.info("Assignment06: summation was imported successfully")
-        self.Sum = summation(self.list_)
-        logging.info("Assignment06: Sum attribute assigned to list_")
+        try:
+            from summation import summation
+            logging.info("Assignment06: summation was imported successfully")
+        except:
+            print("ImportError:")
+            print("Summation function could not be found")
+        try:
+            self.Sum = summation(self.list_)
+            logging.info("Assignment06: Sum attribute assigned to list_")
+        except TypeError:
+            logging.warning("Invalid input: list contains data that mixes \
+            types or that is not numerical")
+            print("TypeError:")
+            print("Your input is not a list or integer. Make ammends \
+            accordingly.")
+        except ValueError:
+            logging.warning("Invalid input: list contains data that is not of \
+            the correct numerical type")
+            print("ValueError")
+            print("Your input is not a valid number. Try again.")
         logging.debug("Assignment06: Sum = " + str(summation(self.list_)))
 
     def FindMinMax(self):
@@ -54,10 +70,26 @@ class Assignment06:
         :param: list components can be a float or integer
         """
 
-        from FindMinMax import FindMinMax
-        logging.info("Assignment06: FindMinMax was imported successfully")
-        self.MinMax = FindMinMax(self.list_)
-        logging.info("Assignment06: MinMax attribute assigned to list_")
+        try:
+            from FindMinMax import FindMinMax
+            logging.info("Assignment06: FindMinMax was imported successfully")
+        except:
+            print("ImportError:")
+            print("FindMinMax function could not be found")
+        try:
+            self.MinMax = FindMinMax(self.list_)
+            logging.info("Assignment06: MinMax attribute assigned to list_")
+        except TypeError:
+            logging.warning("Invalid input: list contains data that mixes \
+            types or that is not numerical")
+            print("TypeError:")
+            print("Your input is not a list or integer. Make ammends \
+            accordingly.")
+        except ValueError:
+            logging.warning("Invalid input: list contains data that is not of \
+            the correct numerical type")
+            print("ValueError")
+            print("Your input is not a valid number. Try again.")
         logging.debug("Assignment06: MinMax = " + str(FindMinMax(self.list_)))
 
     def FindMaxDifference(self):
@@ -68,9 +100,24 @@ class Assignment06:
         numerical list
         :param: list components can be a float or integer
         """
-
-        from maxDifference import maxFindDiff
-        logging.info("Assignment06: maxFindDiff was imported successfully")
-        self.MaxDiff = maxFindDiff(self.list_)
-        logging.info("Assignment06: MaxDiff attribute assigned to list_")
+        try:
+            from maxDifference import maxFindDiff
+            logging.info("Assignment06: maxFindDiff was imported successfully")
+        except:
+            print("ImportError:")
+            print("FindMinMax function could not be found")
+        try:
+            self.MaxDiff = maxFindDiff(self.list_)
+            logging.info("Assignment06: MaxDiff attribute assigned to list_")
+        except TypeError:
+            logging.warning("Invalid input: list contains data that mixes \
+            types or that is not numerical")
+            print("TypeError:")
+            print("Your input is not a list or integer. Make ammends \
+            accordingly.")
+        except ValueError:
+            logging.warning("Invalid input: list contains data that is not of \
+            the correct numerical type")
+            print("ValueError")
+            print("Your input is not a valid number. Try again.")
         logging.debug("Assignment06: MinMax = " + str(maxFindDiff(self.list_)))
