@@ -1,7 +1,5 @@
 import numpy as np
 import math
-# https://docs.pytest.org/en/latest/assert.html
-# Assertions about expected exceptions
 
 
 def test_exceptions():
